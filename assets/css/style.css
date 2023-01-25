@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+  margin: 30px auto;
+  /*width: 9000px;*/
+}
+
+table {
+  margin-top: 20px;
+  white-space: nowrap;
+  border: none;
+}
+
+tbody {
+  white-space: nowrap;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(227, 235, 253);
+}
+
+table th {
+  padding: 10px;
+  background-color: #999;
+}
+
+table tr td {
+  padding: 10px;
+  border: none;
+}
+
+table tr:hover td {
+  background-color: rgb(238, 238, 238);
+}
+
+fieldset {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+/*########## FORM ADD ############*/
+
+input {
+  width: 100%;
+  height: 40px; 
+}
+
+.contentTable {
+  background-color: aqua;
+  padding: 0 30px;
+}
+
+.inputRisco {
+  height: 50px;
+}
+
+.checkbox-apt {
+  width: initial;
+  display: flex;
+  align-items: center;
+}
+
+#aptidaoAltura {
+  width: initial;
+  margin-right: 10px;
+}
+
+#aptidaoConfinado {
+  width: initial;
+  margin-right: 10px;
+}
+
+#aptidaoAlimentos {
+  width: initial;
+  margin-right: 10px;
+}
+
+.inputExame {
+  width: 60%;
+}
+
+.inputDataExame {
+  width: 200px;
+}
+
+#examesField {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+
+#esquerdo {
+  background-color: rgb(0, 247, 255);
+  justify-content: space-between;
+}
+
+#direito {
+  background-color: rgb(187, 255, 0);
+  justify-content: space-between;
+}
+
+#botao {
+  height: 60px;
+  background-color: rgb(1, 161, 148);
+  color: #ffff;
+  font-size: 30px;
+}
+
+#botao:hover {
+  background-color: rgb(5, 199, 183);
+}
+
+select {
+  height: 30px;
+}

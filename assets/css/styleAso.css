@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+    font-weight: 100;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+
+h3 {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+input.aptidao {
+    width: 700px;
+}
+
+input {
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.headerAso {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.atestadoSaude {
+    text-align: center;
+}
+
+.conteudo {
+    padding: 7px;
+}
+
+.bloco {
+    padding: 7px;
+}
+
+.container {
+    border: 1px solid #000;
+    width: 874px;
+    height: 1240px;
+    margin: auto;
+}
+
+.border {
+    border: 1px solid #000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.headerEmpresa {
+    text-align: center;
+}
+
+/* #### table */
+
+.titulo {
+    width: 160px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+}
+
+.linha50 {
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}
+
+.linhaInteira {
+    font-size: 0.8rem;
+}
+/* ### coluna exames */
+
+.tb-exames {
+    display: flex;
+    border: 0.1px solid black;
+}
+
+.colunaExameEsqueda {
+    width: 50%;
+    padding: 5px;
+    border-right: 0.5px solid black;
+
+}
+
+.colunaExameDireita {
+    width: 50%;
+    padding: 5px;
+
+}
+
+.linhaExame {
+    display: flex;
+}
+
+.tituloExame {
+    width: 75%;
+}
+
+.dataExame {
+    width: 25%;
+}
+
+/* ### assinatura*/
+
+.assinatura {
+    display: flex;
+    height: 100px;
+    border: 1px solid #000;
+
+}
+
+.assinaturaEsquerda {
+    width: 50%;
+    text-align: center;
+    padding-top: 80px;
+    border-right: 1px solid #000;
+}
+
+.assinaturaDireita {
+    width: 50%;
+    text-align: center;
+    padding-top: 80px;
+}
+
+/* ### Médico Coordenador*/
+
+.tb-medicoCoordenador {
+    text-align: center;
+}
+
+#medicoResponsavel {
+    text-align: center;
+}
+
+
+/* ### Observação*/
+
+/* ### NR7*/
+
+.nr7 {
+    text-align: justify;
+}
+
